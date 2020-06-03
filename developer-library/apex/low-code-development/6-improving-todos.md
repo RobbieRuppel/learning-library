@@ -1,8 +1,8 @@
-# Module 6: Improving To Dos
+# Lab 6: Improving To Dos
 
 In this module, you will learn how to add additional columns to a report and improve a list of values.
 
-### **Part 1** - Adding Columns to the Report.
+### **Section 1** - Adding Columns to the Report.
 In the Runtime environment navigate to To Dos and notice that the report includes the Task but not the associated Project and Milestone. To retrieve these values in the report you need to utilize an SQL which ties in the Projects and Milestones tables. This can be done using inner selects or by joining multiple tables together. For simplicity you are going to implement inner select statements.
 
 
@@ -94,7 +94,7 @@ In the Runtime environment navigate to To Dos and notice that the report include
     
     *{Note: You want to save the report as Primary so that it displayed as you see it now to end users when they navigate to the page.}*
     
-### **Part 2** - Updating the Tasks LOV.
+### **Section 2** - Updating the Tasks LOV.
 If you review the To Dos form page, by clicking an edit icon on the report, you will see that Project and Milestone are not on the form page either. To simplify data entry, you will change the Tasks select list to a Popup LOV and include the Project and Milestone.
 
 This same LOV is used on the Links form page so we can reuse it there as well.
@@ -168,4 +168,4 @@ This same LOV is used on the Links form page so we can reuse it there as well.
    
 ### **Summary**
 
-This completes Module 6. You now know how to enhance report and list of value queries to display related details. [Click here to navigate to Module 7](7-improving-links.md) 
+This completes Lab 6. You now know how to enhance report and list of value queries to display related details. [Click here to navigate to Module 7](7-improving-links.md) 

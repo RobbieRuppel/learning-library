@@ -8,31 +8,31 @@
       },
       {
         "filename": "1-sign-up-apex.md",
-        "title": "Module 1: Signing up for an APEX Workspace"
+        "title": "Lab 1: Signing up for an APEX Workspace"
       },
       {
         "filename": "2-using-quick-sql.md",
-        "title": "Module 2: Defining New Data Structures"
+        "title": "Lab 2: Defining New Data Structures"
       },
       {
           "filename": "3-create-app.md",
-          "title": "Module 3: Creating the Application"
+          "title": "Lab 3: Creating the Application"
       },
       {
         "filename": "4-regen-app.md",
-        "title": "Module 4: Regenerating the Application"
+        "title": "Lab 4: Regenerating the Application"
       },
       {
         "filename": "5-improving-tasks.md",
-        "title": "Module 5: Improving Tasks"
+        "title": "Lab 5: Improving Tasks"
       },
       {
         "filename": "6-improving-todos.md",
-        "title": "Module 6: Improving To Dos"
+        "title": "Lab 6: Improving To Dos"
       },
       {
         "filename": "7-improving-links.md",
-        "title": "Module 7: Improving Links"
+        "title": "Lab 7: Improving Links"
       }
     ]
   }

@@ -1,4 +1,4 @@
-# Module 4 - Regenerating the Application
+# Lab 4 - Regenerating the Application
 
 In this module you will regenerate the application to create a better starting point for development. 
 
@@ -12,7 +12,7 @@ Given that no additional development has been performed in the application, you 
 
 *{Note: If development had been performed in the application then you would lose any changes when you regenerate. To avoid this, you could use the Create Page Wizard to create a new Interactive Grid page, delete the existing report and form, and then modify the navigation lists to point to the new page.}*
 
-### **Part 1** - Delete the Existing Application
+### **Section 1** - Delete the Existing Application
 It is important to remove the application you just generated to avoid the confusion of having two applications with the same name.
 
 1. Navigate back to the application home page. 
@@ -34,7 +34,7 @@ It is important to remove the application you just generated to avoid the confus
 
     ![](images/4/perm-delete-now.png) 
 
-### **Part 2** - Load Blueprint
+### **Section 2** - Load Blueprint
 The Create Application Wizard allows developers to load previously generated application definitions, called _Blueprints_. Utilizing this capability, you can load the previous Projects application blueprint, modify the page for milestones and then regenerate the app.
 
 1. From the App Builder home page, open the **App Builder** menu and then click **Create**.
@@ -49,7 +49,7 @@ The Create Application Wizard allows developers to load previously generated app
 
     ![](images/4/load-blueprint.png) 
 
-### **Part 3** – Update Milestones Page
+### **Section 3** – Update Milestones Page
 Now that you have the original pages reloaded, it is simply a matter of removing the old Milestones page, adding the new page type, and then reordering the new page.
 
 1. In the Create an Application page, under Pages, for Milestones click **Edit**
@@ -79,7 +79,7 @@ Now that you have the original pages reloaded, it is simply a matter of removing
 
 5. To generate the new application click **Create Application**
 
-### **Part 4** – Run the New Application
+### **Section 4** – Run the New Application
 
 1. In Page Designer, click **Run Application**
 
@@ -92,5 +92,5 @@ Now that you have the original pages reloaded, it is simply a matter of removing
     *{Note: Records can be inserted, updated, and deleted directly within the Interactive Grid. The wizard generated a list of values for Projects, the Due Date utilizes a pop-up calendar, and the other two fields use text areas to maintain the data directly on the page.}*
 
 ### **Summary**
-This completes Module 4. You now know how to utilize the blueprint to load a previous application definition into the Create Application wizard. [Click here to navigate to Module 5](5-improving-tasks.md)
+This completes Lab 4. You now know how to utilize the blueprint to load a previous application definition into the Create Application wizard. [Click here to navigate to Module 5](5-improving-tasks.md)
      

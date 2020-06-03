@@ -1,4 +1,4 @@
-# Module 1: Signing up for an Oracle APEX Workspace
+# Lab 1: Signing up for an Oracle APEX Workspace
 
 Oracle Application Express (APEX) is a feature of Oracle Database, including the Autonomous Data Warehouse (ADW) and Autonomous Transaction Processing (ATP) services. To start, you will need to decide which Oracle Database you are going to use for the lab, and then create an APEX workspace in that database.
 
@@ -86,7 +86,8 @@ In this part, you will create an Oracle Cloud trial account. Once you have signe
     | Password | **`SecretPassw0rd`** |
     | Workspace Name | DEMO |
     
-    Click **Create Workspace**.
+    Click **Create Workspace**.
+
     ![](images/1/create-workspace.png)
 
 6. In the PEX Instance Administration page, click the **DEMO** link in the success message.         
@@ -141,6 +142,6 @@ your email correctly}*
 
 This completes the lab setup. At this point, you know how to create an APEX Workspace and you are ready to start building amazing apps, fast.
 
-Go to Module 2 of this lab by clicking the navigation menu icon, in the upper-left corner of the header.
+Go to Lab 2 of this lab by clicking the navigation menu icon, in the upper-left corner of the header.
 
  

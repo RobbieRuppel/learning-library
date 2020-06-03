@@ -1,4 +1,4 @@
-# Module 2 - Defining New Data Structures Using Quick SQL
+# Lab 2 - Defining New Data Structures Using Quick SQL
 
 Memorizing the SQL to create and maintain database objects can be difficult. However, there are tools that can generate the code for you based on a shorthand syntax or a graphical user interface. In this module, you will learn how to create tables and views by defining data structures in Quick SQL. 
 
@@ -20,7 +20,7 @@ Below is a napkin design for collecting project information:
 
 You should notice that the new model allows the assignment of Team Members to Projects, as well as optionally to Tasks, and To Dos. The concept of a Project having Milestones has been introduced, however, it is optional that Tasks are associated with a Milestone. Further, To Dos and Links have been added to Tasks.
 
-### **Part 1** - Open Quick SQL
+### **Step 1** - Open Quick SQL
 1. Log into your workspace
 2. Click **SQL Workshop**
 3. Click **SQL Scripts**
@@ -31,7 +31,7 @@ You should notice that the new model allows the assignment of Team Members to Pr
 
     ![](images/2/go-quick-sql.png)
 
-### **Part 2** - Enter Shorthand for Tables
+### **Step 2** - Enter Shorthand for Tables
 Quick SQL provides an easy way to generate the SQL required to create a relational data model from an indented text document. This tool is designed to reduce the time and effort required to create SQL tables, triggers, and index structures.
 
 *{Note: You will only be entering some of the tables and a few columns for each table. This exercise is designed to teach you the concepts behind Quick SQL, and not a typing exercise. A completed script will be provided later in the Module.}*
@@ -63,7 +63,7 @@ Quick SQL provides an easy way to generate the SQL required to create a relation
 
     ![](images/2/enter-projects.png)
 
-### **Part 3** – Improve the Shorthand
+### **Step 3** – Improve the Shorthand
 So far you have defined some basic tables and used the defaults, however, there are numerous directives and data types you can add to the shorthand to improve the SQL generated.
 
 1. Click **Help**   
@@ -97,7 +97,7 @@ So far you have defined some basic tables and used the defaults, however, there 
     
     *{Note: You will need to scroll down within the SQL (right pane) to review the team member trigger for the implementation of the _/upper_ on _username_. If you scroll down further, you will see all of the insert statements.}*
 
-### **Part 4** - Enter a Child Table
+### **Step 4** - Enter a Child Table
 By indenting a table name, you can define the new table as a child table of the table above, and the SQL will generate a foreign key relationship between the two tables. 
 
 1. Enter a child table related to Projects.
@@ -128,7 +128,7 @@ By indenting a table name, you can define the new table as a child table of the 
 
     ![](images/2/enter-tasks.png)
 
-### **Part 5** – Update the Settings
+### **Step 5** – Update the Settings
 You can define numerous settings to further improve the generated SQL. You can click **Settings** within the toolbar under SQL (right pane), if you only plan to run the script once. As outlined in the **Help**, you can also define settings in Quick SQL (left pane). Settings defined in Quick SQL do not need to be reentered each time you return to Quick SQL to rerun a previously run script.
 
 1. In the SQL (right pane) toolbar, click **Settings**
@@ -150,7 +150,7 @@ You can define numerous settings to further improve the generated SQL. You can c
 
     ![](images/2/post-settings.png)
 
-### **Part 6** – Copy in the Complete Shorthand
+### **Step 6** – Copy in the Complete Shorthand
 
 1. In Quick SQL (left pane), replace all of the existing shorthand with the following:
 
@@ -206,7 +206,7 @@ You can define numerous settings to further improve the generated SQL. You can c
 
     *{Note: The full shorthand defines all of the required settings. It also includes additional columns on many of the tables, and additional directives and data types. There is also a view defined.}*
 
-### **Part 7** – Implement the Script
+### **Step 7** – Implement the Script
 At this stage you have created a list of SQL statements. However, you first need to save the statements as a script file and then run the script. This will create the database objects and insert the data.
 
 1. In the SQL (right pane) toolbar, click **Save SQL Script**.
@@ -230,4 +230,4 @@ At this stage you have created a list of SQL statements. However, you first need
     *{Note: If you do not see 217 statements processed then return to Quick SQL and click _Generate SQL_, resave the script and then run it again. If you do not see 217 successful, then review the errors displayed in Feedback within the results.}*
 
 ### **Summary**
-This completes Module 2. You now know how to utilize Quick SQL to build complex data structures, complete with sample data. [Click here to navigate to Module 3](3-create-app.md)
+This completes Lab 2. You now know how to utilize Quick SQL to build complex data structures, complete with sample data. [Click here to navigate to Module 3](3-create-app.md)
